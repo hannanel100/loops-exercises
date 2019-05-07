@@ -113,3 +113,52 @@ if(count==0){
     console.log(num + " is a prime");
 }
 */
+/*checking if number is armstrong
+function getLength(number) {
+    return number.toString().length;
+}
+var num = 10;
+var sum=0;
+var temp = num;
+for (var i = 0; i < getLength(num); i++) {
+    sum += Math.pow((temp % 10), getLength(num));
+    temp = Math.floor(temp / 10);
+}
+
+if (sum==num){
+    console.log(num + " is Armstrong");
+}
+else{
+    console.log(num + " is not Armstrong");
+
+}
+*/
+/*checking if num is a perfect number
+var num=33550336;
+var sum=0;
+for(var i=0; i<num; i++){
+    if(num%i==0){
+        sum+=i;
+    }
+}
+if(sum==num){
+    console.log(num + " is a perfect number")
+}
+else{
+    console.log(num + " is not a perfect number")
+}
+*/
+/*printing fibonachi series up to n number
+var n=20;
+var x1 = 1;
+var x2 = 1;
+var t=0;
+var str= "";
+for (var i=0; i<n; i++){
+    t=x2;
+    x2=x1+x2;
+    x1=t;
+    str+= x1 + " , ";
+}
+console.log(1 + " , " + str);
+*/
